@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>org.scijava</groupId>
 		<artifactId>pom-scijava</artifactId>
-		<version>26.0.0</version>
+		<version>29.2.1</version>
 		<relativePath />
 	</parent>
 
@@ -21,13 +21,13 @@
 	<url>https://github.com/d-tear/SIAL</url>
 	<inceptionYear>2019</inceptionYear>
 	<organization>
-		<name>[MY-ORGANIZATION-NAME]</name>
-		<url>[MY-ORGANIZATION-WEB-SITE]</url>
+		<name>The MacKay Lab at the University of Southern California</name>
+		<url>http://www.mackaylab.com</url>
 	</organization>
 	<licenses>
 		<license>
-			<name>CC0 1.0 Universal License</name>
-			<url>https://creativecommons.org/publicdomain/zero/1.0/</url>
+			<name>MIT License</name>
+			<url>https://opensource.org/licenses/MIT</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -36,7 +36,7 @@
 		<developer>
 			<id>d-tear</id>
 			<name>David Tyrpak</name>
-			<url>https://imagej.net/User:[MY-IMAGEJ-WIKI-ACCOUNT]</url>
+			<url>https://imagej.net/User:D-tear</url>
 		</developer>
 	</developers>
 	<contributors>
@@ -53,14 +53,14 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:git://github.com/[MY-ORG]/[MY-REPO]</connection>
-		<developerConnection>scm:git:git@github.com:[MY-ORG]/[MY-REPO]</developerConnection>
+		<connection>scm:git:git://github.com/d-tear/SIAL.git</connection>
+		<developerConnection>scm:git:git@github.com:d-tear/SIAL.git</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/[MY-ORG]/[MY-REPO]</url>
+		<url>https://github.com/d-tear/SIAL</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>http://github.com/[MY-ORG]/[MY-REPO]/issues</url>
+		<url>https://github.com/d-tear/SIAL/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>None</system>
@@ -68,9 +68,9 @@
 
 	<properties>
 		<main-class>SIAL.Randomizer</main-class>
-		<license.licenseName>cc0</license.licenseName>
-		<license.copyrightOwners>N/A</license.copyrightOwners>
-		<license.projectName>ImageJ software for multidimensional image processing and analysis.</license.projectName>
+		<license.licenseName>MIT License</license.licenseName>
+		<license.copyrightOwners>David Tyrpak</license.copyrightOwners>
+		<license.projectName>SIAL: A Simple Image Analysis Library</license.projectName>
 	</properties>
 
 	<repositories>
