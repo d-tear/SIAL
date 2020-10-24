@@ -80,13 +80,8 @@ public class PhenoScoreKeeper implements Command {
 			throw new IllegalArgumentException("WARNING! You didnt load a PhenoLog file or properly create a new experiment.");
 		}
 		
-		//2. Error. User cannot load a PhenoLog file and then select any of the fields for a new analysis. This would mix up experiments
-		if  ( recordsFile != null && (fExt != null || inputDir != null || outputDir != null || spinnerInteger != 0 )) {
-			ui.showDialog("WARNING! You cannot load a previous PhenoLog file and fill out other fields.");
-			throw new IllegalArgumentException("WARNING! You cannot load a previous PhenoLog file and fill out other fields.");
-		}
 		
-		//3. New Analysis. This is OK. Create a new PhenoLog file in the chosen records directory, AS LONG AS THERE IS NO EXISTING PhenoLog FILE IN THIS DIRECTORY
+		//2. New Analysis. This is OK. Create a new PhenoLog file in the chosen records directory, AS LONG AS THERE IS NO EXISTING PhenoLog FILE IN THIS DIRECTORY
 		if  (recordsFile == null && (fExt != null && inputDir != null && outputDir != null && spinnerInteger != null )) {
 			
 			//First ensure that there are no existing PhenoLog files. We don't want to overwrite anything unintentionally!
@@ -134,9 +129,9 @@ public class PhenoScoreKeeper implements Command {
 		}
 		
 		
-		//4. Continued Analysis. This also OK. Load the chosen PhenoLog records file and harvest the inputDir, outputDir, fExt, 
-		//and number of Phenotypes
-		if  ( recordsFile != null && (fExt == null && inputDir == null && outputDir == null && spinnerInteger == 0 )) {
+		//3. Continued Analysis. This also OK. Load the chosen PhenoLog records file and harvest the inputDir, outputDir, fExt, 
+		//and number of Phenotypes. Note that PhenoScoreKeeper will ignore all other fields and initialize variables from the specified PhenoLog records file.
+		if  ( recordsFile != null) {
 			
 			
 			
