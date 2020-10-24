@@ -25,7 +25,8 @@ public class LogFile extends FileEditor {
 /**
  * the file which will serve as your log file. It will record which inputDir files you have already analyzed.
  */
-private File infile; // I don't believe this declaration is needed or used, because parent FileEditor constructor is called in the constructor
+private File infile; // I don't believe this declaration is needed or used, because the parent FileEditor constructor is called in the LogFile constructor. 
+//and this declares and initializes a "private File infile" field.
 
 /**
  * The directory that your log file is watching. We will analyze the files in this directory and write the file names to the log file after we complete the analysis for that file
