@@ -58,8 +58,8 @@ public class PhenoScoreKeeper implements Command {
 	private File outputDir;
 	
 
-	@Parameter(label = "Input number of phenotypes",
-			style = NumberWidget.SPINNER_STYLE, min = "0", max = "1000", persist = false, required = false)
+	@Parameter(label = "Input number of phenotypes. Must be >= 2",
+			style = NumberWidget.SPINNER_STYLE, min = "2", max = "1000", persist = false, required = false)
 		private Integer spinnerInteger;
 
 	
