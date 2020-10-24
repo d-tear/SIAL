@@ -14,7 +14,7 @@
 
 	<groupId>com.mackaylab</groupId>
 	<artifactId>SIAL</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 
    <name>Speeds up human assisted image analysis</name>
 	<description>Simple Image Analysis Library</description>

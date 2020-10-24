@@ -25,7 +25,7 @@ public class LogFile extends FileEditor {
 /**
  * the file which will serve as your log file. It will record which inputDir files you have already analyzed.
  */
-private File infile; 
+private File infile; // I don't believe this declaration is needed or used, because parent FileEditor constructor is called in the constructor
 
 /**
  * The directory that your log file is watching. We will analyze the files in this directory and write the file names to the log file after we complete the analysis for that file
@@ -46,7 +46,7 @@ private String fExtension;
  */
 	public LogFile(File infile, File inputDir, String fExtension) {
 		
-		super(infile); //explicitly invoke the constructor for parent class FileEditor
+		super(infile); //explicitly invoke the constructor for parent class FileEditor. Will create private this.infile field
 		
 		this.inputDir = inputDir; //new field
 		
