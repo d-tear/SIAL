@@ -239,7 +239,7 @@ public class PhenoScoreKeeper implements Command {
 				}
                  // otherwise continue while loop until user inputs correct range
                  WaitForUserDialog wd_roi= new WaitForUserDialog("Incorrect Phenotype Range","Phenotype score must be between your specified range: " + "1" + "-" + Integer.toString(spinnerInteger) +
-                		 System.lineSeparator() + "Press OK to renalyze last image");
+                		 System.lineSeparator() + "Press OK to re-analyze last image");
          		
          		//display dialog box and message.
          		wd_roi.show();
