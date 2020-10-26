@@ -47,3 +47,10 @@ How to use the PhenoScoreKeeper inside of SIAL: https://youtu.be/FiaNubIDvSw
 
 How to use the ROI Recorder program inside of SIAL: https://youtu.be/9mTHGVeWJA0
 
+How to import ImageJ/FIJI ROIs into <a href="https://qupath.github.io">QuPath</a>: https://youtu.be/hCFrk9NJ4gk
+
+## Contact Info and Support
+
+For software support and general questions, including opportunities to contribute to SIAL, users should contact David Tyrpak at davidtyrpak31@gmail.com
+
+
