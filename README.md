@@ -51,6 +51,6 @@ How to import ImageJ/FIJI ROIs into <a href="https://qupath.github.io">QuPath</a
 
 ## Contact Info and Support
 
-For software support and general questions, including opportunities to contribute to SIAL, users should contact David Tyrpak at davidtyrpak31@gmail.com
+For software support and general questions about SIAL, including opportunities to contribute to SIAL, users should contact David Tyrpak at davidtyrpak31@gmail.com
 
 
