@@ -76,6 +76,6 @@ How to use the PhenoScoreKeeper inside of SIAL: https://youtu.be/FiaNubIDvSw
 
 How to use the ROI Recorder program inside of SIAL: https://youtu.be/9mTHGVeWJA0
 
-How to import FIJI ROIsets into QuPath: https://www.youtube.com/watch?v=hCFrk9NJ4gk&t=28s
+How to import FIJI ROIsets into QuPath: https://youtu.be/hCFrk9NJ4gk
 
 # References
