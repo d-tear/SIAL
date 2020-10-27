@@ -26,7 +26,7 @@ As primarily “wet-lab” scientists, we wanted to develop user friendly progra
 
 ***PhenoScoreKeeper***: This program helps speed up manual phenotype scoring of images by partially automating score collection. Users specify an input directory and output directory, and the program automatically opens up each image in the input directory and prompts the user to enter an integer score for the image. It saves the scores in a csv file located in the specified output directory.
 
-***ROI Recorder***: This program uses ImageJ's built-in ROI manager to quickly harvest ROIsets and measurements from images in a specified input directory. The program opens up the input images one at a time and prompts the user to harvest ROIs. It then automatically saves the ROIsets and ROI measurements for each image and writes the results to the specified output directory.
+***ROI Recorder***: This program uses ImageJ's built-in ROI manager to quickly harvest ROIsets and measurements from images in a specified input directory. The program opens up the input images one at a time and prompts the user to harvest ROIs. It then automatically saves the ROIsets and ROI measurements for each image to the specified output directory.
 
 Both the PhenoScoreeKeeper and ROI Recorder programs track which images have already been analyzed so that users can stop and start their analyses without losing progress. Links to videos detailing the use of these programs are provided in the Installation and Tutorials section.
 
