@@ -45,7 +45,7 @@ Both the PhenoScoreeKeeper and ROI Recorder programs track which images have alr
 
 # Statement of need
 
-Many biomedical researchers perform relatively simple image analysis taks that often require human intervention. Notable examples include scoring phenotypes or harvesting ROIs from a directory of images. FIJI already provides many of the the tools to carry out these analyses, but workflows are often compromised by user bias and limited reproducibility, as users may analyzse data without proper blinding or neglect to save useful metadata. In addition, even these simple analyses can become labour intensive in the absence of a script which automates repetivive tasks while saving relevant output. 
+Many biomedical researchers perform relatively simple image analysis tasks that often require human intervention. Notable examples include scoring phenotypes or harvesting ROIs from a directory of images. FIJI already provides many of the tools to carry out these analyses, but workflows are often compromised by user bias and limited reproducibility, as users may analyze data without proper blinding or neglect to save useful metadata. In addition, even these simple analyses can become labor intensive in the absence of a script which automates repetitive tasks while saving relevant output. 
 
 SIAL's goal is to provide simple GUI programs to help wet-lab researchers blind their data, score phenotypes, and harvest ROIs. In addition, because wet-lab scientists are typically interrupted by multiple experiments, the PhenoScoreKeeper and ROI Recorder programs keep track of which images in a directory have already been analyzed so that researchers can easily start and stop their workflows without hassle.
 
