@@ -52,7 +52,7 @@ SIAL's goal is to provide simple GUI programs to help wet-lab researchers blind 
 
 SIAL is easily installed via the ImageJ update website service, utilizes simple user interfaces, requires no programming experience, and requires no dependencies except FIJI. The individual programs inside SIAL can be easily integrated with workflows involving other FIJI plugins or with workflows employing another open source software, like Cell Profiler [@McQuin:2018] or QuPath [@Bankhead:2017]. For example, users may employ the File Randomizer to blind their data before downstream analyses with these programs. Alternatively, within FIJI users may harvest ROIs using the ROI Recorder program and then analyze the ROIs using another plugin or import the ROIsets into QuPath for complementary analysis. 
 
-Because of its ease of use and focus on some the most common wet-lab image analysis tasks, SIAL is routinely used by our group and our close collaborators to improve the efficieny and reproducibiltiy of our image analysis workflows.
+Because of its ease of use and focus on some the most common wet-lab image analysis tasks, SIAL is routinely used by our group and our close collaborators to improve the efficiency and reproducibility of our image analysis workflows.
 
 # Acknowledgements
 
