@@ -1,7 +1,7 @@
 # SIAL
 ### Simple Image Analysis Library
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3950492.svg)](https://doi.org/10.5281/zenodo.3950492)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4134668.svg)](https://doi.org/10.5281/zenodo.4134668)
 
 SIAL: A simple image analysis library for wet-lab scientists
 
